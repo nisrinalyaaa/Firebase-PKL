@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/koko"
+    android:background="@drawable/walpupo"
     tools:context=".LoginActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -19,9 +19,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:text="LOGIN"
             android:textAlignment="center"
-            android:textColor="#ffff"
+            android:textColor="#121111"
             android:textSize="20sp"
             android:textStyle="bold" />
     </androidx.appcompat.widget.Toolbar>
@@ -46,6 +47,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="360dp"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <EditText

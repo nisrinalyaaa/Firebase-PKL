@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
-    android:background="@drawable/koko"
+    android:background="@drawable/walpupo"
     tools:context=".SignUpActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -20,9 +20,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:text="REGISTER"
             android:textAlignment="center"
-            android:textColor="#ffff"
+            android:textColor="#040404"
             android:textSize="20sp"
             android:textStyle="bold" />
     </androidx.appcompat.widget.Toolbar>
@@ -83,7 +84,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="90dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginRight="30dp"
                     android:background="@drawable/button_background"
                     android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
